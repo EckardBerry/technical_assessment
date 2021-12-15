@@ -68,12 +68,12 @@ Good luck! If you have any questions about this task, feel free to get in touch 
 Depending on the operating system you use will determine how the commands will
 function.
    
-   ##1. Click the link in the repository to clone the repository, select the http url and copy it.  Here is the url:
+   1. Click the link in the repository to clone the repository, select the http url and copy it.  Here is the url:
 
       https://gitlab.com/brsk-uk/technical-assessment.git
       
       
-   ##2. Cloing the repository 
+   2. Cloing the repository 
       In an IDE of your choice (I used Pycharm), you can either click on Version control if you downloaded the plug-in and clone the repository by pasting
       the link you just copied.  Alternatively, open up a new terminal, make sure you are in a directory where the repository you are about to download can
       exist.  Type in the following command in the terminal:
@@ -81,7 +81,7 @@ function.
       git clone <paste the URL link you just copied>
       
       
-   ##3. Activating the virtual environment 
+   3. Activating the virtual environment 
       Once you've successfully cloned the repository, ensure you are in the directory called 'technical-assessment'.  Once there you can activate
       the virtual environment by typing in the following command in the command line:  
       
@@ -91,7 +91,7 @@ function.
       
       pip install requirements.txt
       
-   ##4. Downloading the word bank 
+   4. Downloading the word bank 
       Change into the directory 'workbench'.  Then, run the following command:
       
       python3 create_file_of_scrabble_words.py  
@@ -99,10 +99,10 @@ function.
       If you use Pycharm you won't need to run this command, once you open the file 'create_file_of_scrabble_words.py'
       there will be a little green arrow for you to click on to run it.
       
-   ##5. Taking your time 
+   5. Taking your time 
       Step 4 might take a bit of time to finish, it all depends on your hardware requirements and how fast your internet connection is.
       
-   ##6. Playing the game 
+   6. Playing the game 
       From within the same directory as in step 4, run the following command:
       
       python3 scrabble_game.py
