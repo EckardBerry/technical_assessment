@@ -78,7 +78,7 @@ function.
       the link you just copied.  Alternatively, open up a new terminal, make sure you are in a directory where the repository you are about to download can
       exist.  Type in the following command in the terminal:
       
-      git clone <paste the URL link you just copied>
+      git clone https://github.com/EckardBerry/technical_assessment.git
       
       
    3. Activating the virtual environment 
